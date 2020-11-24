@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <form class="formulario">
+        <label for="marca">Marca:</label><br>
+        <input type="text" id="marca" name="marca"><br>
+        <label for="modelo">Modelo:</label><br>
+        <input type="text" id="modelo" name="modelo"><br>
+        <label for="puertas">Puertas:</label><br>
+        <input type="text" id="puertas" name="puertas"><br>
+        <label for="combustible">Combustible:</label><br>
+        <select name="combustible" id="combustible">
+            <option value="0" selected="selected">Seleccione combustible</option>
+            <option value="gasolina">Gasolina</option>
+            <option value="diesel">Diesel</option>
+            <option value="hibrido">Híbrido</option>
+            <option value="electrico">Eléctrico</option>
+        </select>
+        
+        <p>Ordenador:</p>
+        <input type="radio" id="ordenador1" name="ord" value="1"> Si
+        <input type="radio" id="ordenador0" name="ord" value="0"> No
+        <br>
+        <label for="motorizacion">Motorización:</label><br>
+        <input type="text" id="motorizacion" name="motorizacion"><br>
+        <p>Elevalunas:</p>
+        <input type="radio" id="eleva1" name="ele" value="1"> Si
+        <input type="radio" id="eleva0" name="ele" value="0"> No
+        <br>
+        <p>Cierre centralizado:</p>
+        <input type="radio" id="cierre1" name="cie" value="1"> Si
+        <input type="radio" id="cierre0" name="cie" value="0"> No
+        <br>
+        <label for="matriculacion">Año matriculación:</label><br>
+        <input type="date" id="matriculacion" name="matriculacion"><br>
+        <p>Pintura metalizada:</p>
+
+        <input type="radio" id="pintura1" name="pin" value="1"> Si
+        <input type="radio" id="pintura0" name="pin" value="0"> No
+
+        <br>
+        <label for="color">Color:</label><br>
+        <input type="text" id="color" name="color"><br>
+        <p>Cambio automático:</p>
+
+        <input type="radio" id="cambio1" name="cam" value="1"> Si
+        <input type="radio" id="cambio0" name="cam" value="0"> No
+
+        <br>
+        <label for="precio">Precio final:</label><br>
+        <input type="text" id="precio" name="precio"><br>
+        <p>KM 0:</p>
+
+        <input type="radio" id="km1" name="kil" value="1"> Si
+        <input type="radio" id="km0" name="kil" value="0"> No
+
+        <br>
+        <label for="path">PATHFOTO:</label><br>
+        <input type="text" id="path" name="path"><br>
+        <br>
+        <button type="submit" value="Enviar">Enviar</button>
+    </form>
+</body>
+</html>
