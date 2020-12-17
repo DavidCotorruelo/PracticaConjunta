@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+    <body>
+        <?php
+        $conexionBD = mysqli_connect("localhost", "root", "", "prueba_conjunta");
+        $SQL = "INSERT INTO autos (ID, Marca, Modelo, Puertas, Combustible, Ordenador, Motorizacion, Elevalunas, CierreCentralizado, AñoMatriculacion, PinturaMetalizada, Color, CambioAutomatico, PrecioFinal, KM0) VALUES (null, '$Marca', '$Modelo', $Puertas, $Combustible, $Ordenador, $Motorizacion, $Elevalunas, $CierreCentralizado, $AñoMatriculacion, $PinturaMetalizada, '$Color', $CambioAutomatico, $PrecioFinal, $KM0)";
+        mysqli_query($conexionBD, $SQL);
+        ?>
+    </body>
+</html>
