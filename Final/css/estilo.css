@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+*{
+    font-family: 'Barlow', sans-serif;
+}
+footer span{
+    float:right;
+    padding-right: 50px;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #537087;
+    color: black;
+    text-align: left;
+    padding:10px;
+    padding-left:50px;
+  }
+
+  .txtFoot{
+      float: right;
+      margin-right: 20px;
+  }
+
+  .enlace1, .enlace2, .enlace3{
+    font-family: 'Staatliches';
+
+  }
+
+  #cabezera {
+	padding: 10px;
+    background-color:  #537087;
+    border-top: 3px solid #537087;
+    
+    }
+   
+   #cabezera li {
+    display: inline;
+
+    }
+
+    #cabezera li a {
+        font-size: 20px;
+        text-decoration: none;
+
+        background-color:  #537087;
+        color: #fff;
+        }
+
+       
+          
+    .zoom:hover {
+        transform: scale(1.02);
+        box-shadow: 0 0 0px rgb(54, 49, 49); 
+    }
+    .btn:hover{
+        border-style: solid;
+        border-color: rgb(243, 110, 62);
+        border-width: 5px;
+    }
+    .zoom {
+        padding: 50px;
+        transition: transform .10s;
+        width: 15px;
+        height: 15px;
+        margin: 0 auto;
+        position: absolute;
+        top: 68%;
+        left: 35%;
+        
+      }
+
+      .zoom1 {
+        padding: 50px;
+        transition: transform .10s;
+        width: 15px;
+        height: 15px;
+        margin: 0 auto;
+        position: absolute;
+        top: 68%;
+        left: 49%;
+      }
+      .zoom1:hover {
+        transform: scale(1.02);
+        box-shadow: 0 0 0px rgb(54, 49, 49); 
+    }
+      .btn{
+        background-color:  #0a83ba;
+        color: #fff;
+        height: 85px;
+        padding: 3%;
+        position: relative;
+        border-radius: 6px;
+        box-sizing: border-box;
+        width: 230px;
+      }
+
+      .logo{
+        width: 60px;
+        height: 60px;
+        margin-left: 14px;
+        margin-top: 5px
+      }
+
+      .textoBoton{
+        font-size: 19px;
+      }
+
+      .fondo{
+          width: 100%;
+      }
+
+      .titulo{
+          position: absolute;
+          font-size: 80px;
+          text-align: center;
+          top: 24%;
+          left: 28%;
+          color: white;
+          text-shadow: 2px 2px #537087;
+      }
+
+      header{
+        background-color: #0a83ba;
+        height: 70px;
+      }
+
+      .enlace1{
+        position: absolute;
+        top: 2.8%;
+        left: 5%;
+        font-size: 20px;
+        color: white;
+      }
+
+      .enlace2{
+        position: absolute;
+        top: 2.8%;
+        left: 13%;
+        font-size: 20px;
+        color: white;
+    }
+
+    .enlace3{
+        position: absolute;
+        top: 2.8%;
+        left: 18%;
+        font-size: 20px;
+        color: white;
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: lightgray;
+    }
+    form{
+        padding: 20px;
+        max-width: 400px;
+        background-color: #0a83bab3;
+        margin: 0 auto;
+        border-radius: 50px;
+        padding-left: 20px;
+      }
+      
+      form,label{
+          padding-left: 20px;
+      }
+      
+      .h1{
+          text-align: center;
+          margin-bottom: -8px;
+      }
+      
+      hr{
+          width: 80%;
+          margin-top: 15px;
+          margin-bottom: 15px;
+      }
+      .botonsitocr7{
+          width: 100px;
+          height: 30px;
+          border-radius: 5px;
+          text-align: center;
+          margin-left: 150px;
+      }
+      
+      .radios{
+          margin-left: 20px;
+      }
+      
+      #inputMarca{
+          width: 70%;
+      }
+      #inputModelo{
+          width: 68.2%;
+      }
+      #inputPuertas{
+          width: 66.9%;
+      }
+      #inputCombustible{
+          width: 59.5%;
+          height: 26px;
+      }
+      #inputMotorizacion{
+          width: 58%;
+      }
+      #inputMatriculacion{
+          width: 48.5%;
+      }
+      #inputColor{
+          width: 70.5%;
+      }
+      #inputPrecio{
+          width: 60.5%;
+      }
+      #inputFoto{
+          width: 61.3%;
+      }
+      
+      footer span {
+          float:right;
+          padding-right: 50px;
+      }
+      
+      footer{
+          position: fixed;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          background-color: #0a83ba;
+          color: white;
+          text-align: left;
+          padding:10px;
+          padding-left:50px;
+      }
+
+
+      #errores{
+        text-align: center;
+        padding-top: 7px;
+        color: red;
+      }
+
+      
